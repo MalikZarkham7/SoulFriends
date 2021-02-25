@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "692358912307",
+    "project_id": "soul-friend-app-56a13",
+    "storage_bucket": "soul-friend-app-56a13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692358912307:android:160ad6c2bf137d1731c646",
+        "android_client_info": {
+          "package_name": "com.example.soulfriends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692358912307-k9kmfmmsrp28nk1a7ufu0btthknachll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8JZAMs7G4lsELRr--lCkfmkkwwJU_GZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692358912307-k9kmfmmsrp28nk1a7ufu0btthknachll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

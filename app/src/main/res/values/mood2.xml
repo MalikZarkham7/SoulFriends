@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mood2">
+        <item>Fear</item>
+        <item>Anger</item>
+        <item>Sadness</item>
+        <item>Joy</item>
+        <item>Trust</item>
+        <item>Jealousy</item>
+        <item>Love</item>
+        <item>Anxiety</item>
+        <item>Grief</item>
+        <item>Horror</item>
+        <item>Depression</item>
+    </string-array>
+</resources>
