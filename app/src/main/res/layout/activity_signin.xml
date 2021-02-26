@@ -48,37 +48,31 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_width="303dp"
+        android:layout_height="50dp"
         android:layout_marginTop="96dp"
+        android:layout_marginEnd="40dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:singleLine="false"
         android:textColorHint="#FBFBFB"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
-        android:layout_width="339dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_width="299dp"
+        android:layout_height="47dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:textColorHint="#FDFCFC"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
     <TextView
@@ -112,5 +106,29 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SignIn" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="25dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/e" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="32dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/p" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
