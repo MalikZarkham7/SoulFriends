@@ -1,44 +1,52 @@
 package com.example.soulfriends;
 
-import java.util.Date;
-
 public class ChatMessage {
-    private String messageText;
-    private String messageUser;
-    private long messageTime;
-
-    public ChatMessage(String messageText, String messageUser) {
-        this.messageText = messageText;
-        this.messageUser = messageUser;
-
-        messageTime = new Date().getTime();
-    }
+    private String text;
+    private String name;
+    private String photoUrl;
+    private String imageUrl;
 
     public ChatMessage() {
     }
 
-    public String getMessageText() {
-        return messageText;
+    public ChatMessage(String text, String name, String photoUrl, String imageUrl) {
+        this.text = text;
+        this.name = name;
+        this.photoUrl = photoUrl;
+        this.imageUrl = imageUrl;
     }
 
-    public void setMessageText(String messageText) {
-        this.messageText = messageText;
+    public void setText(String text) {
+        this.text = text;
     }
 
-    public String getMessageUser() {
-        return messageUser;
+    public String getName() {
+        return name;
     }
 
-    public void setMessageUser(String messageUser) {
-        this.messageUser = messageUser;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public long getMessageTime() {
-        return messageTime;
+    public String getPhotoUrl() {
+        return photoUrl;
     }
 
-    public void setMessageTime(long messageTime) {
-        this.messageTime = messageTime;
+    public String getText() {
+        return text;
+    }
+
+    public void setPhotoUrl(String photoUrl) {
+        this.photoUrl = photoUrl;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
+
 
